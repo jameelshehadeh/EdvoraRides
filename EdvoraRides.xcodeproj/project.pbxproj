@@ -27,6 +27,7 @@
 		FA58120F27F6DE42003A3769 /* RideData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideData.swift; sourceTree = "<group>"; };
 		FA58121127F720D3003A3769 /* RideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideView.swift; sourceTree = "<group>"; };
 		FA58121327F86B02003A3769 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		FA58121727FB202D003A3769 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				FA5811F827F5A3BA003A3769 /* EdvoraRidesApp.swift */,
 				FA5811FC27F5A3BB003A3769 /* Assets.xcassets */,
 				FA5811FE27F5A3BB003A3769 /* Preview Content */,
+				FA58121727FB202D003A3769 /* README.md */,
 			);
 			path = EdvoraRides;
 			sourceTree = "<group>";
