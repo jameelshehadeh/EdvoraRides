@@ -17,11 +17,6 @@ class NetworkManager : ObservableObject {
     
     func fetchData(with stationCode : Int){
         
-        DispatchQueue.main.async {
-            self.ridePosts = []
-        }
-        
-        
         guard let url = URL(string: "https://assessment.api.vweb.app/rides") else {return}
         
         let session = URLSession(configuration: .default)
@@ -94,18 +89,9 @@ class NetworkManager : ObservableObject {
             //Sorting rides based on their maximum value of each ride in in station_path array that is greater than the station code
             
             print("nearest")
-            
-            DispatchQueue.main.async {
-                self.ridePosts = []
-            }
-            
-            
-
-            for ride in rides {
-                
-            }
-
-            return ridePosts
+        
+        
+            return rides
             
         case "upcoming" :
             print("UPCOMING")
